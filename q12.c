@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
     int a,b,temp;
     printf("enter a and b to swap");
@@ -8,5 +8,6 @@ void main()
     a=b;
     b=temp;
     printf("a=%d\nb=%d",a,b);
+    return 0;
 
 }

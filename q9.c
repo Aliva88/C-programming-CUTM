@@ -1,10 +1,14 @@
 #include<stdio.h>
-#include<math.h>
-void main()
+int main()
 {
-    int a,b,c,greater;
+    int num1,num2,num3;
     printf("enter three numbers");
-    scanf("%d %d %d",&a,&b,&c);
-    greater= fmax(a,fmax(b,c));
-    printf("greater number is %d",greater);
+    scanf("%d %d %d",&num1,&num2,&num3);
+    if(num1>num2&&num1>num3)
+    printf("Num1 is greater");
+else if(num2>num3)
+printf("Num2 is greater");
+else
+printf("Num3 is greater");
+return 0;
 }

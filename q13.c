@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
     int a,b;
     printf("enter a and b");
@@ -8,4 +8,5 @@ void main()
     b=a-b;
     a=a-b;
     printf("a=%d\nb=%d",a,b);
+    return 0;
 }

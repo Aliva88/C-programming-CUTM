@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
     int a,b,sum,sub,mul,div,mod;
     printf("enter a and b");
@@ -8,6 +8,6 @@ void main()
     sub=a-b;
     mul=a*b;
     div=a/b;
-    mod=a%b;
-    printf("sum=%d\nsub=%d\nmul=%d\ndiv=%d\nmod=%d",sum,sub,mul,div,mod);
+    printf("sum=%d\nsub=%d\nmul=%d\ndiv=%d\n",sum,sub,mul,div);
+    return 0;
 }
