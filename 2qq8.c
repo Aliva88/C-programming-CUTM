@@ -1,9 +1,6 @@
 #include<stdio.h>
-int main()
+void func(int days)
 {
-    int days;
-    printf("Enter the day's naumber");
-    scanf("%d",&days);
     switch(days)
     {
         case 1:
@@ -30,5 +27,12 @@ int main()
         default:
         printf("Invalid choice");
     }
+}
+int main()
+{
+    int days;
+    printf("Enter the day's naumber ");
+    scanf("%d",&days);
+    func(days);
     return 0;
 }
