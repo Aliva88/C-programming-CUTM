@@ -1,5 +1,5 @@
 #include<stdio.h>
-void posnev(int n);
+void posnev(int);
 void posnev(int n)
 {
     if(n>0)
