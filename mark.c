@@ -4,23 +4,23 @@ int main()
     int mark;
     printf("Enter your mark ");
     scanf("%d",&mark);
-    switch(mark)
+    switch(mark/10)
     {
-        case if(mark >=90 && mark <=100):
+        case 10:
+        case 9:
         printf("A");
         break;
-        case if(mark>=80 && mark<=89):
+        case 8:
         printf("B");
         break;
-        case if(mark>=70 && mark<=79):
+        case 7:
         printf("C");
         break;
-        case if(mark>=60 && mark<=69):
+        case 6:
         printf("D");
         break;
-
-         default:
-         printf("F");
+        default:
+        printf("F");
     }
     return 0;
 }
