@@ -1,10 +1,8 @@
 #include<stdio.h>
-void main()
+void func(int);
+void func(int num)
 {
-    int a;
-    printf("enter the value a");
-    scanf("%d",&a);
-    if(a%2==0)
+    if(num%2==0)
     {
         printf("the number is even");
     }
@@ -13,4 +11,12 @@ void main()
         printf("the number is odd");
     }
 
+}
+int main()
+{
+    int a;
+    printf("enter the value number ");
+    scanf("%d",&a);
+    func(a);
+    return 0;
 }
