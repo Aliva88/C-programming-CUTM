@@ -1,14 +1,20 @@
 #include<stdio.h>
+void func(int,int);
+void func(int num1,int num2)
+{
+    int sum,sub,mul,div,mod;
+    sum=num1+num2;
+    sub=num1-num2;
+    mul=num1*num2;
+    div=num1/num2;
+    mod=num1%num2;
+    printf("%d %d %d %d %d",sum,sub,mul,div,mod);
+}
 int main()
 {
-    int a,b,sum,sub,mul,div,mod;
-    printf("enter a and b");
+    int a,b;
+    printf("Enter 2 number ");
     scanf("%d %d",&a,&b);
-    sum=a+b;
-    sub=a-b;
-    mul=a*b;
-    div=a/b;
-    mod=a%b;
-    printf("sum=%d\nsub=%d\nmul=%d\ndiv=%d\nmod=%d",sum,sub,mul,div,mod);
+    func(a,b);
     return 0;
 }
