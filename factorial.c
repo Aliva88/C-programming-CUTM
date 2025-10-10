@@ -1,14 +1,20 @@
 #include<stdio.h>
-int main()
+void fumc(int);
+void func(int n)
 {
-    int i,n;
+    int i;
     long long fact=1;
-    printf("Enter a number ");
-    scanf("%d",&n);
     for(i=1;i<=n;i++)
     {
         fact=fact*i;
     }
     printf("Fectorial of %d is %lld",n,fact);
+}
+int main()
+{
+    int n;
+    printf("Enter a number ");
+    scanf("%d",&n);
+    func(n);
     return 0;
 }

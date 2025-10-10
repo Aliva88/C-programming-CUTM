@@ -1,9 +1,8 @@
 #include<stdio.h>
-int main()
+void func(int);
+void func(int i)
 {
-    int i,rev=0,n,org;
-    printf("Enter a num ");
-    scanf("%d",&i);
+    int rev=0,n,org;
     org=i;
     while(i!=0)
     {
@@ -20,5 +19,12 @@ int main()
     {
         printf("The number is a palindrome");
     }
+}
+int main()
+{
+    int i;
+    printf("Enter a num ");
+    scanf("%d",&i);
+    func(i);
     return 0;
 }

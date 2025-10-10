@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
     int num1,num2,num3,sum,avg;
     printf("enter num1 num2 and num3");
@@ -8,4 +8,5 @@ void main()
     printf("sum=%d\n",sum);
     avg=sum/3;
     printf("avgerage=%d",avg);
+    return 0;
 }

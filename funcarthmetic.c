@@ -29,19 +29,19 @@ int main()
     switch(choice)
     {
         case 1:
-        sum(a,b);
-        printf(a+b);
+        printf("Sum=%d",sum(a,b));
+        break;
         case 2:
-        sub(a,b);
-        printf(a-b);
+        printf("Sub=%d",sub(a,b));
+        break;
         case 3:
-        mul(a,b);
-        printf(a*b);
+        printf("Mul=%d",mul(a,b));
+        break;
         case 4:
-        div(a,b);
-        printf(a/b);
+        printf("Div=%d",div(a,b));
+        break;
         default:
-        printf("invelid");
+        printf("Invalid");
     }
     return 0;
 }
