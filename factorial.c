@@ -8,7 +8,7 @@ void func(int n)
     {
         fact=fact*i;
     }
-    printf("Fectorial of %d is %lld",n,fact);
+    printf("Factorial of %d is %lld",n,fact);
 }
 int main()
 {

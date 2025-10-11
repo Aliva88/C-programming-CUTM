@@ -2,18 +2,17 @@
 void func(int num)
 {
     num=1;
-    while(num<=10)
+    while(num<=5)
     {
         printf("%d\n",num);
         num++;
     }
-    num=1;
     do
     {
         printf("%d\n",num);
         num++;
     }
-    while(num<=10);
+    while(num<=5);
 }
 int main()
 {
