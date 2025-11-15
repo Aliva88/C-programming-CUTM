@@ -1,10 +1,11 @@
 #include<stdio.h>
 int main()
 {
-    int temp,F;
-    printf("enter the tempreture of the city");
-    scanf("%d",&temp);
+    float F;
+    float temp;
+    printf("Enter the temperature of the city in degree centigrade ");
+    scanf("%f",&temp);
     F=(temp*(9/5))+32;
-    printf("F=%d",F);
+    printf("The temperature of the city in Fahrenheit %f",F);
     return 0;
 }

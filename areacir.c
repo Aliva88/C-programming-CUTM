@@ -1,13 +1,13 @@
 #include<stdio.h>
-const int pi=3.14159;
-void main()
+const float pi=3.14159;
+int main()
 {
-    int r1,r=7;
-    float area,cir;
+    float area, circumference,r;
+    printf("Enter the radius ");
+    scanf("%f", &r);
     area=pi*r*r;
-    printf("area of the circle is %f\n",area);
-    printf("enter the radius");
-    scanf("%d",&r1);
-    cir= 2*pi*r1;
-    printf("circumference of the circle is %f",cir);
+    circumference = 2*pi*r;
+    printf("Area of the circle is %f\n",area);
+    printf("Circumference of the circle is %f",circumference);
+    return 0;
 }

@@ -12,7 +12,7 @@ int main()
         case 2:
         printf("Tuesday");
         break;
-        case 3:
+        case 1+2:
         printf("Wednesday");
         break;
         case 4:

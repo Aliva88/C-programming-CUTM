@@ -1,8 +1,9 @@
 #include<stdio.h>
-void main()
+int main()
 {
-    int a;
-    printf("enter a");
-    scanf("%d",&a);
-    printf("%d is %s",a,(a%2==0?"even":"odd"));
+    int year;
+    printf("Enter year ");
+    scanf("%d",&year);
+    printf("%d is %s",year,(year%4==0?"a leap year":"not a leap year"));
+    return 0;
 }
