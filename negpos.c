@@ -1,19 +1,23 @@
 #include<stdio.h>
-void main()
+void check(int num)
 {
-    int a;
-    printf("enter a");
-    scanf("%d",&a);
-    if(a<0)
+    if(num<0)
     {
         printf("a is negetive");
     }
-    else if(a>0)
+    else if(num>0)
     {
         printf("a is positive");
     }
     else
     {
-        printf("a=%d",a);
+        printf("0");
     }
+}
+void main()
+{
+    int a;
+    printf("enter a ");
+    scanf("%d",&a);
+    check(a);
 }

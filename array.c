@@ -1,13 +1,35 @@
 #include<stdio.h>
 int main()
 {
-    int arr[5];
-    for(int i=0;i<5;i++)
+    int arr[100],size,i;
+    printf("Enter the size of array ");
+    scanf("%d",&size);
+    printf("Enter values ");
+    for(i=0;i<size;i++)
     {
-        printf("Enter values ");
         scanf("%d",&arr[i]);
     }
-    printf("Sum of 1st 2 values is %d\n",(arr[1]+arr[2]));
-    printf("Sub of 2nd 2 values is %d",(arr[3]-arr[4]));
+    for(i=0;i<size;i++)
+    {
+        printf("arr[%d]=%d\n",i,arr[i]);
+    }
+    for(i=0;i<size;i++)
+    {
+        arr[i]=arr[i]+1;
+    }
+    printf("_________\n");
+    for(i=0;i<size;i++)
+    {
+        printf("arr[%d]=%d\n",i,arr[i]);
+    }
+    printf("_________\n");
+    for(i=0;i<size;i++)
+    {
+        arr[i]=0;
+    }
+    for(i=0;i<size;i++)
+    {
+        printf("arr[%d]=%d\n",i,arr[i]);
+    }
     return 0;
 }

@@ -20,9 +20,5 @@ else if(mark>=60&&mark<=69)
 {
 printf("Your grade is D");
 }
-else
-{
-printf("Your grade is F");
-}
 return 0;
 }
